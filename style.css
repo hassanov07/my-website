@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: linear-gradient(135deg, #e0f7fa 0%, #b2dfdb 100%);
+    /* Couleurs douces, santé/bien-être */
+    min-height: 100vh;
+  }
+  h1 {
+    color: #00796b;
+  }
+  .result {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    color: #222;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  }
+  .maigreur {
+    background: #b3e0ff;
+  }
+  .normal {
+    background: #b6ffb3;
+  }
+  .surpoids {
+    background: #fff7b3;
+  }
+  .obesite {
+    background: #ffb3b3;
+  }
+  #historique {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  form {
+    background: #ffffffcc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    display: inline-block;
+  }
+  button {
+    background: #00796b;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  button:hover {
+    background: #004d40;
+  }
